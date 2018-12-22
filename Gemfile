@@ -4,9 +4,9 @@ ruby '2.5.3'
 gem 'rails'
 
 gem 'bootsnap', require: false
+gem 'pg'
 gem 'puma'
 gem 'sass-rails'
-gem 'sqlite3'
 gem 'uglifier'
 
 group :development, :test do
