@@ -5,15 +5,13 @@ ruby '2.5.3'
 
 gem 'rails'
 
-gem 'sqlite3'
+gem 'bootsnap', require: false
+gem 'coffee-rails'
 gem 'puma', '~> 3.11'
 gem 'sass-rails', '~> 5.0'
-gem 'uglifier'
-
-gem 'coffee-rails'
+gem 'sqlite3'
 gem 'turbolinks'
-
-gem 'bootsnap', require: false
+gem 'uglifier'
 
 group :development, :test do
   gem 'pry'
